@@ -6,6 +6,7 @@ import City from '@/pages/city/City'
 import Ticket from '@/pages/ticket/Ticket'
 import Detail from '@/pages/detail/Detail'
 import ImageList from '@/pages/detail/ImageList'
+import Gallery from '@/pages/detail/Gallery'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       name: 'ImageList',
       meta: {index: 6},
       component: ImageList
+    }, {
+      path: '/gallery',
+      name: 'Gallery',
+      meta: {index: 7},
+      component: Gallery
     }
   ]
 })

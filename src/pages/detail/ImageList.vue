@@ -4,28 +4,52 @@
       <span class="iconfont icon-back" @click="$router.go(-1)"></span>
       <div class="inline">景区图片</div>
     </div>
-    <div class="content flex-row">
-      <div class="img" v-for="item in imgList" :key="item.id">
+    <div class="content flex-row" :style="style">
+      <div class="img" v-for="(item, index) in imgList" :key="item.id" @click="showGallery(index)">
         <img :src="item.src">
       </div>
     </div>
+    <Gallery v-if="show" @close="handleClose" :index="index"></Gallery>
   </div>
 </template>
 
 <script>
+import Gallery from './Gallery'
 import {mapState} from 'vuex'
 export default({
+  components: {Gallery},
   data () {
     return {
+      show: false,
+      style: {
+        overflow: 'auto'
+      },
+      index: 1
     }
   },
   mounted () {
-    console.log(this.cityInfo)
+    // console.log(this.cityInfo)
   },
   computed: {
     ...mapState(['imgList', 'cityInfo'])
   },
-  methods: {}
+  watch: {
+    show () {
+      if (this.show) this.style.overflow = 'hidden'
+      else this.style.overflow = 'auto'
+    }
+  },
+  methods: {
+    showGallery (index) {
+      this.index = index
+      this.show = true
+      this.style.overflow = 'hidden'
+    },
+    handleClose () {
+      this.show = false
+      this.style.overflow = 'auto'
+    }
+  }
 })
 </script>
 
@@ -40,6 +64,7 @@ export default({
       line-height: .44rem;
       text-align: center;
       background: #fff;
+      z-index: 1;
       .iconfont {
         position: absolute;
         left: 0;
@@ -55,6 +80,9 @@ export default({
     .content {
       position: absolute;
       top: .55rem;
+      left : 0;
+      right: 0;
+      bottom: 0;
       flex-wrap: wrap;
       padding: 0 .05rem 0 .1rem;
       .img {
