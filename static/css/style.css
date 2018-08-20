@@ -1,0 +1,60 @@
+html {
+  font-size: 100px;
+}
+
+body, div, p, span, a, ul, li, ol, h1, h2, h3, h4, h5, h6, form, input, button, textarea, table, tr, td, th {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-top, .border-left {
+  border: 1px solid #fbfbfb
+}
+
+.bg-color {
+  background: #f2f2f2
+}
+
+.header-color {
+  background: #16afca
+}
+
+.common-color {
+  color: #16afca
+}
+
+.font-color {
+  color: #fd801c
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.inline {
+  display: inline-block;
+}

@@ -1,0 +1,61 @@
+{
+  "ret": true,
+  "comment": 176057,
+  "rate": "5.0",
+  "guides": 32,
+  "address": "上海市浦东新区川沙新镇上海迪士尼度假区内",
+  "banner": "//img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_600x330_8572a930.jpg",
+  "imgList": [{
+    "id": "001",
+    "src": "http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_350x240_a8e4d8a8.jpg"
+  }, {
+    "id": "002",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/81/81ed632012f27eeaa3.img.jpg_350x240_6db86357.jpg"
+  }, {
+    "id": "003",
+    "src": "http://img1.qunarzz.com/sight/p0/1704/d2/d2a029bded2f6b4aa3.img.jpg_350x240_6ed8e68e.jpg"
+  }, {
+    "id": "004",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/1e/1e5eaf5ac11a1dea3.img.jpg_350x240_1654220c.jpg"
+  }, {
+    "id": "005",
+    "src": "http://img1.qunarzz.com/sight/p0/1704/d7/d75e41fc3bf305d8a3.img.jpg_350x240_384ad477.jpg"
+  }, {
+    "id": "006",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/e6/e6c63a841145702a3.img.jpg_350x240_d277a555.jpg"
+  }, {
+    "id": "007",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/b6/b6dcb80ed40dedbfa3.img.jpg_350x240_7205d2a3.jpg"
+  }, {
+    "id": "008",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/26/26cfb4d9ad836b52a3.img.jpg_350x240_ea330f00.jpg"
+  }, {
+    "id": "009",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/da/dac7cd5bfa983877a3.img.jpg_350x240_78fcc459.jpg"
+  }, {
+    "id": "010",
+    "src": "http://img1.qunarzz.com/sight/p0/1711/a7/a753b93561cdda70a3.img.jpg_350x240_6ce92df9.jpg"
+  }, {
+    "id": "011",
+    "src": "http://img1.qunarzz.com/sight/p0/1704/ff/ff02101c458e7e25a3.img.jpg_350x240_b4297c87.jpg"
+  }],
+  "recommendList": [{
+    "id": "001",
+    "title": "【限量特惠】上海迪士尼成人票（身份证限购2张）",
+    "time": "22:00前随买随用",
+    "comment": ["自营", "无需换票", "不可退"],
+    "price": 548
+  }, {
+    "id": "002",
+    "title": "【8月10-19日15:00后入园】上海迪士尼成人1.5日票",
+    "time": "22:00前随买随用",
+    "comment": ["自营", "无需换票", "不可退"],
+    "price": 575
+  }, {
+    "id": "003",
+    "title": "⭐️上海迪士尼一日游⭐️8.20-30买成人送儿童+导陪入园",
+    "time": "可定明日",
+    "comment": ["条件退", "无购物", "已售2035"],
+    "price": 576
+  }]
+}
