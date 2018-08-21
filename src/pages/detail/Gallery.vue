@@ -61,8 +61,6 @@ export default({
     .wrapper {
       width: 100%;
       .swiper-container {
-        /*overflow-x: hidden;
-        overflow-y: inherit;*/
         overflow: inherit;
         width: 100%;
         .swiper-slide {
