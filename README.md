@@ -1,6 +1,6 @@
 # webapp-vue
 
-> Vue制作的webapp，数据都是用的模拟，放在static文件夹中，用axios获取
+> Vue制作的webapp，数据都是用的模拟，放在static文件夹中，用axios获取。
 > 用到了axios, vuex, better-scroll, vue-awesome-swiper
 
 ## Build Setup
